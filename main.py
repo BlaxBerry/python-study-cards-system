@@ -10,6 +10,7 @@ while True:
     show_main_menu()
 
     input_action_number = input("请输入要执行的操作选项: ")
+    print("\n")
     print(f"你选择的是【{input_action_number}】")
 
     if input_action_number == "0":
